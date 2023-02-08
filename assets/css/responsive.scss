@@ -275,6 +275,7 @@
       padding: 20px 20px;
       padding-left: 20px;
     }
+
   }
   @media  only screen and (max-width: 575px) {
     .single_hero__form {
@@ -349,5 +350,8 @@
     }
     .form__btn{
       min-width: 125px;
+    }
+    .left-content{
+      width: auto;
     }
   }

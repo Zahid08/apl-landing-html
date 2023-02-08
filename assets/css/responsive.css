@@ -225,6 +225,86 @@
     padding: 20px 20px;
     padding-left: 20px;
   }
+  .left-side-heighlight-sections {
+    padding: 46px 0px 14px 10px;
+  }
+  .about_section {
+    padding: 44px 0px 51px 0px;
+    position: relative;
+  }
+  .row {
+    padding: unset;
+  }
+  .highlight_sections {
+    background: #F5F5F5;
+    padding-bottom: 49px;
+  }
+  .col-md-6.right-side-heighlight-sections{
+    padding: 25px;
+  }
+  .shape-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  img.video-icon {
+    position: absolute;
+    top: 30%;
+    left: 36%;
+  }
+  .col-md-6.map-lef-side-sections {
+    padding: 55px 0px 120px 0px;
+  }
+  .maping {
+    /* text-align: center; */
+    margin-left: 52px;
+  }
+  .btn-sections {
+    margin-left: -71px;
+  }
+  .col-md-6.map-right-side-sections {
+    display: none;
+  }
+  h3.type_main__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+  }
+  h4.type_top {
+    background: #989898;
+    /* padding: 10px 0px 10px 15px; */
+    text-align: center;
+  }
+  .main_content_c h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    color: #777777;
+    text-align: center;
+  }
+  .type__title h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 34px;
+    color: #FFFFFF;
+  }
+  .left-content{
+    width: 100%;
+  }
+  .col-md-6.lef_hero_section p {
+    width: 100%;
+    text-align: center;
+  }
+  .about-right-sections {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 35px;
+  }
+  .col-md-6.right_hero_section {
+    padding: 33px 13px;
+  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -233,11 +313,21 @@
     height: 60px;
   }
   .hero__content .hero__title {
-    font-size: 30px;
+    font-size: 26px;
+    text-align: center;
+  }
+  .lef_hero_section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.75);
+    padding-top: 85px;
+    padding-bottom: 94px;
   }
   .hero__style {
-    padding-top: 100px;
-    padding-bottom: 140px;
+    /*padding-top: 100px;*/
+    /*padding-bottom: 0;*/
   }
   .nav-logo img {
     max-width: 80%;
@@ -344,7 +434,7 @@
     font-size: 18px;
   }
   .col-md-4.footer_center_content {
-    padding-top: 32px;
+    padding-top: 5px;
   }
   .footer__style .footer_content .footer__links {
     padding: 9px 0;

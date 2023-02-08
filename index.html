@@ -15,8 +15,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-    <!-- Custom CSS -->
+    <!-- Swipper CSS -->
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 
@@ -50,10 +52,10 @@
                                 <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
                             </div>
                             <ul>
-                                <li><a href="#">ABOUT PROPERTY</a></li>
-                                <li><a href="#">PROJECT HIGHLIGHTS</a></li>
-                                <li><a href="#">Location HIGHLIGHTS</a></li>
-                                <li><a href="#">Property Type</a></li>
+                                <li><a href="#about">ABOUT PROPERTY</a></li>
+                                <li><a href="#highlight">PROJECT HIGHLIGHTS</a></li>
+                                <li><a href="#l_highlight">Location HIGHLIGHTS</a></li>
+                                <li><a href="#property_type">Property Type</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -64,40 +66,41 @@
     <!-- ===============  header area end =============== -->
 
     <!-- ===============  hero style start =============== -->
-    <div class="hero__style">
+    <div class="hero__style" >
         <div class="row justify-content-center">
             <div class="hero__content row">
                 <div class="col-md-6 lef_hero_section">
-                    <h2 class="hero__title">Countless moments of happiness await you</h2>
-                    <p>Live a life of luxury in a harmonious community, where every moment you will cherish forever. Make a home at Natural Winter Garden</p>
+                    <div class="left-content">
+                        <h2 class="hero__title">Countless moments of happiness await you</h2>
+                        <p>Live a life of luxury in a harmonious community, where every moment you will cherish forever. Make a home at Natural Winter Garden</p>
+                    </div>
                 </div>
                 <div class="col-md-6 right_hero_section">
                     <div class="form_section">
                         <form>
                             <form>
                                 <h3 class="right-side-title">INTERESTED TO</h3>
-                                <div class="custom_selections">
+                                <div class="custom_selections mb__space">
                                     <select class="custom-select">
                                         <option value="0">Get a Property Tour</option>
-                                        <option value="1">City </option>
-                                        <option value="2">City</option>
-                                        <option value="3">City</option>
+                                        <option value="1">Know Price</option>
+                                        <option value="2">Talk to an Advisor</option>
                                     </select>
                                 </div>
 
-                                <div class="group_input_data mt-3">
+                                <div class="group_input_data mb__space">
                                     <div class="wrapping-field-with-icon">
                                         <img src="assets/images/icons/user.png" class="input-icon">
                                         <input type="text" placeholder="Your Name">
                                     </div>
                                 </div>
-                                <div class="group_input_data mt-3">
+                                <div class="group_input_data mb__space">
                                     <div class="wrapping-field-with-icon">
                                         <img src="assets/images/icons/email.png" class="input-icon" style="top: 16px;">
                                         <input type="text" placeholder="Email">
                                     </div>
                                 </div>
-                                <div class="group_input_data mt-3 mb-3">
+                                <div class="group_input_data mb__space">
                                     <div class="wrapping-field-with-icon">
                                         <img src="assets/images/icons/phone.png" class="input-icon" style="left: 11px;">
                                         <input type="text" placeholder="Phone">
@@ -116,7 +119,7 @@
     <!-- ===============  hero style end =============== -->
 
     <!-- ===============  About sections  =============== -->
-    <div class="about_section">
+    <div class="about_section" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 about-left-sections">
@@ -133,11 +136,14 @@
                 </div>
             </div>
         </div>
+        <div class="background-img">
+            <img src="assets/images/logo_background_1.png">
+        </div>
     </div>
     <!-- ===============   About sections =============== -->
 
     <!-- ===============  Highlight Sections sections  =============== -->
-    <div class="highlight_sections">
+    <div class="highlight_sections" id="highlight">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 left-side-heighlight-sections">
@@ -171,7 +177,7 @@
     </div>
     <!-- ===============  Highlight Sections sections  =============== -->
 
-    <div class="map_section">
+    <div class="map_section" id="l_highlight">
         <div class="row" style="margin: 0;padding: 0">
             <div class="col-md-6 map-lef-side-sections">
                <div class="maping">
@@ -195,7 +201,7 @@
     </div>
 
 
-    <div class="property_type_card">
+    <div class="property_type_card" id="property_type">
         <div class="container">
             <div class="row" style="margin: 0;padding: 0">
                 <div class="text-center">
